@@ -79,7 +79,7 @@ const Home: React.FC = () => {
               <div key={index} className='col-12 col-sm-6 col-lg-3'>
                 <FoodCard
                   title={restaurant.name}
-                  imageUrl='src/assets/placeholder.png'
+                  imageUrl={`src/assets/restaurants/placeholder${Math.floor(Math.random() * 4) + 1}.png`}
                   region={restaurant.location}
                   rating={restaurant.rating}
                   arrivalTime={restaurant.deliveryTime}
