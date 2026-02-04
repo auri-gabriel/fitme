@@ -32,7 +32,10 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <div className='mb-4'>
+      <div
+        className='mb-4'
+        style={{ position: 'relative', overflowX: 'hidden' }}
+      >
         <div className='container py-5'>
           <div className='row'>
             <div className='col-12 col-md-6 d-flex flex-column justify-content-center'>
@@ -52,17 +55,17 @@ const Home: React.FC = () => {
               <HomeCarousel />
             </div>
           </div>
-          <img
-            className='d-none d-sm-block home-banner__element-left position-absolute'
-            src='src/assets/home/left-element.svg'
-            alt=''
-          />
-          <img
-            className='d-none d-sm-block home-banner__element-right position-absolute'
-            src='src/assets/home/right-element.svg'
-            alt=''
-          />
         </div>
+        <img
+          className='d-none d-sm-block home-banner__element-left position-absolute'
+          src='src/assets/home/left-element.svg'
+          alt=''
+        />
+        <img
+          className='d-none d-sm-block home-banner__element-right position-absolute'
+          src='src/assets/home/right-element.svg'
+          alt=''
+        />
       </div>
       <div className='container my-4'>
         <h2 className='mb-4'>Restaurants</h2>
