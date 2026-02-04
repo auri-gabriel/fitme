@@ -6,8 +6,6 @@ A modern food ordering and restaurant browsing application built with React, Typ
 
 ![FitMe Application](./screenshot.png)
 
-> Add your application screenshot in the root directory as `screenshot.png`
-
 ## Features
 
 - Browse restaurants and food items
