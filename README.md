@@ -1,27 +1,36 @@
 # FitMe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern food ordering and restaurant browsing application built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![FitMe Application](./screenshot.png)
 
-## Expanding the ESLint configuration
+> Add your application screenshot in the root directory as `screenshot.png`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Browse restaurants and food items
+- User authentication (login/signup)
+- Responsive design with custom SCSS styling
+- Fast development with Vite HMR
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Tech Stack
+
+- **React** with TypeScript
+- **Vite** for build tooling
+- **SCSS** for styling
+- **React Router** for navigation
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
